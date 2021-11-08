@@ -28,7 +28,7 @@ import * as dbConfig from '../config/db.connection.json';
       provide: 'EmployeeRepository',
       useClass: EmployeeMapper,
     },
-    DbConnection,
+    // DbConnection,
   ],
 })
 export class AppModule {}
